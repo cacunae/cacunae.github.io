@@ -1,0 +1,80 @@
+
+
+#blog h4{
+    margin: 50px;
+    top: 100px;
+    text-align: center;
+    
+    
+    
+
+}
+
+#blog .contenedor{
+   
+   display: flex;     
+   justify-content:center;
+   flex-wrap: wrap;
+   
+   
+    
+}
+
+#blog article{
+    
+    
+    margin: 0.1px;
+    margin-top: 130px;
+   
+    
+}
+
+#blog img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 888px;
+    
+    
+    
+}
+
+#perrin{
+    
+  
+    width: 500px;
+        
+    
+    
+}
+
+#gatin{
+    
+    
+    width: 500px;
+    
+}
+
+@media (min-width:1024px){
+    
+    
+    #gatin{
+        transform: translateY(420px)
+    }
+    
+    #gatin h4{
+        transform: translate(-500px, -300px);
+        
+    }
+    
+    #perrin h4{
+        transform: translate(500px, -300px);
+        
+        
+    }
+    
+}
+
+
+
+
+
