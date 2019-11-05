@@ -24,12 +24,13 @@
     
     
     margin: 0.1px;
-    margin-top: 130px;
-   
+    margin-top: 100px;
+    margin-bottom: px;
     
 }
 
 #blog img{
+    margin: 0;
     width: 100%;
     max-width: 500px;
     border-radius: 888px;
@@ -39,8 +40,7 @@
 }
 
 #perrin{
-    
-  
+ 
     width: 500px;
         
     
@@ -49,7 +49,7 @@
 
 #gatin{
     
-    
+ 
     width: 500px;
     
 }
@@ -58,7 +58,7 @@
     
     
     #gatin{
-        transform: translateY(420px)
+        transform: translateY(550px)
     }
     
     #gatin h4{
@@ -72,9 +72,53 @@
         
     }
     
+    #bone
+    {
+        transform: translate(430px, 360px);
+    }
+    
+    #bone2{
+        
+        transform: translate(-7px, -50px)
+    }
+    
+    #bone3{
+        
+        transform: translate(430px, 550px)
+        
+    }
+    
+    
+    
 }
 
+#bone{
+    position:relative;
+    bottom: 30px;
+    left: 200px;
+    max-width: 100%;
+    width: 150px;
+    
+    
+}
 
+#bone2{
+    
+    margin: 0;
+    border: 0;
+    padding: 0;
+    max-width: 100%;
+    width: 150px;
+}
 
+#bone3{
 
+    
+    position:relative;;
+    max-width: 100%;
+    width: 150px;
+    left: 200px;
+    top:90px;
+    
+}
 
